@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> <!--TODO ADD android:background=""-->
+	<Toolbar 
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="?attr/actionBarSize"
+		android:background="@color/appColor"
+	    android:navigationIcon="@drawable/ic_toolbar_back_button">
+		<TextView
+			android:text="Zona expositiva"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"/>
+	</Toolbar>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_weight="35"
+		android:layout_width="match_parent"
+		android:layout_height="0dp">
+		<ImageView
+			android:src="@drawable/ic_51_congress_logo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/imageView1" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_weight="25"
+		android:layout_width="match_parent"
+		android:layout_height="0dp">
+		<TextView
+			android:text="EXPOSICIÓN   \nCOMERCIAL"
+			android:layout_gravity="center"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+		    android:textColor="@color/appColor"/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="25"
+		android:gravity="center_horizontal"
+		android:weightSum="100"
+		android:layout_width="match_parent"
+		android:layout_height="0dp">
+		<LinearLayout
+			android:orientation="vertical"
+			android:padding="5dp"
+			android:gravity="center_horizontal"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+			<ImageButton
+				android:src="@drawable/ic_congress"
+				android:background="@android:color/transparent" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/exhibitionMapImageBtn" />
+			<TextView
+				android:text="PLANO EXPOSITIVO"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:textColor="@color/appColor"/>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/appColor" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:padding="5dp"
+			android:gravity="center_horizontal"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content">
+			<ImageButton
+				android:src="@drawable/ic_congress"
+				android:background="@android:color/transparent" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/imageButton2" />
+			<TextView
+				android:text="EXPOSITORES"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:textColor="@color/appColor"/>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/appColor" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:weightSum="100"
+		android:layout_weight="15"
+		android:layout_width="match_parent"
+		android:layout_height="0dp">
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageView2" />
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_weight="50"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageView3" />
+	</LinearLayout>
+</LinearLayout>
