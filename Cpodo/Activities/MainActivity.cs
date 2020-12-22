@@ -12,7 +12,6 @@ namespace Cpodo
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : BaseActivity
 	{
-		//TEST GITHUB COMMITS
 		Button informationBtn;
 		ImageButton congressImageBtn;
 		ImageButton exhibitionAreaImageBtn;
