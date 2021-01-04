@@ -131,7 +131,7 @@
 			android:layout_gravity="center"
 			android:padding="5dp">
 			<ImageButton
-				android:src="@drawable/ic_congress"
+				android:src="@drawable/ic_exhibition_area"
 				android:background="@android:color/transparent"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -160,7 +160,7 @@
 			android:layout_gravity="center"
 			android:padding="5dp">
 			<ImageButton
-				android:src="@drawable/ic_congress"
+				android:src="@drawable/ic_exhibition_area"
 				android:background="@android:color/transparent"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
