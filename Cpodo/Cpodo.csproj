@@ -196,7 +196,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ic_map.jpg" />
+    <AndroidResource Include="Resources\drawable\map_image.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\CongressMapActivity.axml">

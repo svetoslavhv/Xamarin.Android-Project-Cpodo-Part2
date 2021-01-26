@@ -21,7 +21,7 @@
 			android:textColor="#FFFFFF"/>
 	</Toolbar>
 	<Cpodo.CustomControls.ScaleImageView
-		android:src="@drawable/ic_map"
+		android:src="@drawable/map_image"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" />
 </LinearLayout>

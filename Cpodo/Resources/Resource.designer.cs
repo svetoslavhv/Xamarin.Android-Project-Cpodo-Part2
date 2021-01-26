@@ -2335,31 +2335,31 @@ namespace Cpodo
 			public const int ic_location = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_map = 2131165290;
+			public const int ic_multipurpose_room = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_multipurpose_room = 2131165291;
+			public const int ic_palacio_congreso_valencia_logo = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_palacio_congreso_valencia_logo = 2131165292;
+			public const int ic_schedule = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_schedule = 2131165293;
+			public const int ic_the_city = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_the_city = 2131165294;
+			public const int ic_toolbar_back_button = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_toolbar_back_button = 2131165295;
+			public const int ic_twitter = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_twitter = 2131165296;
+			public const int ic_ubication = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_ubication = 2131165297;
+			public const int ic_voting = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ic_voting = 2131165298;
+			public const int map_image = 2131165298;
 			
 			// aapt resource value: 0x7F070073
 			public const int navigation_empty_icon = 2131165299;
